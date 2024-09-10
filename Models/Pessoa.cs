@@ -9,6 +9,7 @@ namespace Propriedades.Models
     {   //Criando as propridades
         private string _nome;
         private int _idade;
+
         public string Nome 
         { //Realizando validaçôes
             get => _nome.ToUpper(); //Retornar todo em maiusculo
@@ -22,6 +23,10 @@ namespace Propriedades.Models
                 _nome = value;
             }
         }
+
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+
         public int Idade
          { 
             get => _idade;
@@ -38,7 +43,7 @@ namespace Propriedades.Models
         //Criando um método
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }
