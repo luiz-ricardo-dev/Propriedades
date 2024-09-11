@@ -12,3 +12,4 @@ C:\Users\usuario\Desktop\Projetos\Propriedades\obj\Debug\net8.0\refint\Proprieda
 C:\Users\usuario\Desktop\Projetos\Propriedades\obj\Debug\net8.0\Propriedades.pdb
 C:\Users\usuario\Desktop\Projetos\Propriedades\obj\Debug\net8.0\Propriedades.genruntimeconfig.cache
 C:\Users\usuario\Desktop\Projetos\Propriedades\obj\Debug\net8.0\ref\Propriedades.dll
+C:\Users\usuario\Desktop\Projetos\Propriedades\obj\Debug\net8.0\Propriedades.sourcelink.json
