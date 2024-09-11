@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 namespace Propriedades.Models
 {
     public class Pessoa
-    {   //Criando as propridades
+    {  //Criando um Construtor
+        public Pessoa(){} //Vazio
+        public Pessoa(string nome, string sobrenome) //Com Propriedades
+        {
+            this.Nome = nome;
+            this.Sobrenome = sobrenome;
+        }
+        
+         //Criando as propridades
         private string _nome;
         private int _idade;
 

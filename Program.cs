@@ -10,17 +10,9 @@ using Propriedades.Models;
 // p1.Apresentar();
 
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "Thiago";
-p1.Sobrenome = "Lopes";
-
-Pessoa p2 = new Pessoa();
-p2.Nome = "Leonardo";
-p2.Sobrenome = "Algusto";
-
-Pessoa p3 = new Pessoa();
-p3.Nome = "Wesley";
-p3.Sobrenome = "Matheus";
+Pessoa p1 = new Pessoa("Thiago","Lopes");
+Pessoa p2 = new Pessoa("Leonardo", "Algusto");
+Pessoa p3 = new Pessoa("Wesley","Matheus");
 
 Curso cursoDeIngles = new Curso();
 cursoDeIngles.Nome = "Ingles";

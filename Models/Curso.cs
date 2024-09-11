@@ -7,9 +7,14 @@ namespace Propriedades.Models
 {
     public class Curso
     {
+        //Construtor
+        public Curso(){}
+
+        //Propriedades
         public string Nome { get; set; }
         public List<Pessoa> Alunos { get; set; }
 
+        //Métodos da classe
         public void AdicionarAluno(Pessoa aluno)
         {
             Alunos.Add(aluno);
