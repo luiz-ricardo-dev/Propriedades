@@ -33,10 +33,14 @@ namespace Propriedades.Models
         public void ListarAlunos()
         {
             Console.WriteLine($"Alunos do curso de: {Nome}");
-            foreach (Pessoa aluno in Alunos)
+
+            for(int i = 0; i < Alunos.Count; i++)
             {
-                Console.WriteLine(aluno.NomeCompleto);    
+                //string texto = "Nº " + i + " - " + Alunos[i].NomeCompleto; //Concatenação de string
+                string texto = $"Nº {i + 1} - {Alunos[i].NomeCompleto}"; //Interpolação de string
+                Console.WriteLine(texto);
             }
+          
         }
     }
 }
